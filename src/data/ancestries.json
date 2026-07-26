@@ -1,0 +1,21 @@
+[
+  {
+    "id": "gnoll",
+    "name": "Gnoll",
+    "summary": "A resilient survivor with strong scavenger, pack, and practical adaptation themes.",
+    "themes": ["survival", "scavenging", "community", "machine-haunted places"],
+    "recommendationNotes": [
+      "Strong fit for tech-scavenger concepts.",
+      "Works well for characters shaped by dangerous expeditions and found technology."
+    ]
+  },
+  {
+    "id": "drow",
+    "name": "Drow",
+    "summary": "A person shaped by faith, exile, rebellion, obligation, or the weight of a vast city above and below.",
+    "themes": ["faith", "heresy", "duty", "secrets"],
+    "recommendationNotes": [
+      "Strong fit for religious defectors, heretics, ministers, and characters carrying institutional baggage."
+    ]
+  }
+]
