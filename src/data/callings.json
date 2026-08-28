@@ -1,0 +1,21 @@
+[
+  {
+    "id": "enlightenment",
+    "name": "Enlightenment",
+    "summary": "You pursue forbidden truth, revelation, or an impossible theory that others fear or dismiss.",
+    "themes": ["truth", "obsession", "research", "revelation"],
+    "recommendationNotes": [
+      "Best fit for a character trying to prove a hidden logic behind the Vermissian.",
+      "Pairs well with concepts about secret texts, predictions, and dangerous experiments."
+    ]
+  },
+  {
+    "id": "adventure",
+    "name": "Adventure",
+    "summary": "You go deeper because danger, discovery, and impossible places call to you.",
+    "themes": ["exploration", "risk", "curiosity", "expedition"],
+    "recommendationNotes": [
+      "Good fit when the character is motivated by the journey itself rather than a specific truth."
+    ]
+  }
+]

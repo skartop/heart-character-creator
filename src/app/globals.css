@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  background: #140d16;
+  color: #efe6d3;
+}
+
+a {
+  color: inherit;
+}

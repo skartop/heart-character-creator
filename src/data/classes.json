@@ -1,0 +1,21 @@
+[
+  {
+    "id": "junk-mage-placeholder",
+    "name": "Junk-Mage Concept Placeholder",
+    "summary": "A copyright-safe placeholder for a class concept focused on devices, scraps, machines, and dangerous practical ingenuity.",
+    "themes": ["technology", "scrap", "improvisation", "experiments"],
+    "recommendationNotes": [
+      "Use this as a placeholder until official class data is entered in a copyright-safe format.",
+      "Strong thematic match for Vermissian salvage and hidden-mechanism concepts."
+    ]
+  },
+  {
+    "id": "heretic-placeholder",
+    "name": "Heretic Concept Placeholder",
+    "summary": "A copyright-safe placeholder for a character built around faith, rebellion, forbidden rites, and compromised devotion.",
+    "themes": ["faith", "rebellion", "rites", "secrets"],
+    "recommendationNotes": [
+      "Use this as a placeholder until official class data is entered in a copyright-safe format."
+    ]
+  }
+]

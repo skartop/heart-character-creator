@@ -1,0 +1,20 @@
+[
+  {
+    "id": "central-drive",
+    "prompt": "What truth, need, oath, or obsession pulls this character into the Heart?",
+    "reason": "This anchors the character's motivation and helps the GM frame meaningful consequences.",
+    "canDefer": false
+  },
+  {
+    "id": "party-connection",
+    "prompt": "Why do you trust at least one other character enough to travel with them?",
+    "reason": "This should usually be answered once other players have character concepts.",
+    "canDefer": true
+  },
+  {
+    "id": "line-crossed",
+    "prompt": "What line has this character already crossed, and what line do they still refuse to cross?",
+    "reason": "This gives the character moral pressure and helps guide table tone.",
+    "canDefer": true
+  }
+]
