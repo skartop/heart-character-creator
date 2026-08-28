@@ -16,5 +16,14 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": ["src"]
+  "include": [
+    "src/App.tsx",
+    "src/main.tsx",
+    "src/data.ts",
+    "src/data.test.ts",
+    "src/pdf.ts",
+    "src/storage.ts",
+    "src/types.ts",
+    "src/vite-env.d.ts"
+  ]
 }
