@@ -33,7 +33,9 @@ export async function downloadSheet(character: Character) {
   ])
   const pdf = await PDFDocument.load(template)
   pdf.registerFontkit(fontkit)
-  const font = await pdf.embedFont(typeface, { subset: true })
+  // pdf-lib's subset writer corrupts glyphs for this variable TrueType face.
+  // Keep the font whole so every character renders reliably in the exported sheet.
+  const font = await pdf.embedFont(typeface)
   const page1 = pdf.getPage(0)
   const page2 = pdf.getPage(1)
   const ink = rgb(0.34, 0.02, 0.04)
@@ -57,7 +59,8 @@ export async function downloadSheet(character: Character) {
   character.domains.forEach((domain) => { const index = domainOrder.indexOf(domain); if (index >= 0) { mark(page1, 169, domainY[index]); line(page1, character.domainKnacks[domain] ?? '', 250, domainY[index] + 1, 7.4, 55) } })
   drawBlock(page1, character.equipment, 116, 157, 182, 5, font, 8.5)
   drawBlock(page1, character.resources, 330, 157, 238, 5, font, 8.5)
-  drawBlock(page1, character.protections, 246, 579, 51, 5, font, 6.4)
+  // Protection guidance belongs in the builder. The sheet's small boxes remain
+  // blank so players can track the actual values earned during play.
 
   // Page two: retain generous writing space and do not cover the sheet's illustrated headings.
   drawBlock(page2, [character.history && `History: ${character.history}`, character.relationships && `Relationships: ${character.relationships}`].filter(Boolean).join('\n\n'), 61, 672, 220, 38, font, 8.7)
